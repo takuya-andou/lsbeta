@@ -1,0 +1,57 @@
+#model-params label{
+    display:block;
+}
+.param-checkbox{
+    display: inline-block;
+}
+.param-value{
+    display: inline-block;
+}
+.parsed_bets_flag{
+    position: absolute;
+    width:10px;
+    height:10px;
+    top:0px;
+    right:0px;
+    background: #8f0000;
+    vertical-align: top;
+}
+.parsed_bets_flag.active{
+    background: green;
+}
+.calculation_options_container{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.upcoming_match{
+    margin-top:10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#myModal{
+    z-index:10;
+    position: absolute;
+    top:150px;
+}
+.modal_button{
+    cursor: pointer;
+}
+.param-checkbox.required{
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(240,31,31,1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(240,31,31,1);
+    box-shadow: 0px 0px 8px 0px rgba(240,31,31,1);
+}
+.param-checkbox.non-required{
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(20, 167, 0, 1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(20, 167, 0, 1);
+    box-shadow: 0px 0px 8px 0px rgba(20, 167, 0, 1);
+}
+#model_result{
+    min-height:200px;
+}
+#loading_image{
+    position: relative;
+    width: 40px;
+    height:40px;
+    display: none;
+}
